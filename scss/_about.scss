@@ -2,18 +2,24 @@
    display: flex;
    flex-direction: row;
   }
+ .wrapper{
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .wrap{
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 60px);
+} 
 .about-menu{
     display: flex;
     padding-left: 30px;
     margin-bottom: 30px;
     padding: 0;
-    border-bottom: 4px solid rgba(255, 255, 255, 0.3);
-    padding-bottom: 30px;
 }
 .menu{
     gap: 30px;
-    padding: 0; 
-    margin: 0; 
+    padding-left: 30px;
     display: flex;
     overflow-x: scroll;
 }
@@ -53,10 +59,13 @@
     margin: 0;
     padding: 0;
 }
-@media (min-width:768px){
-.about-menu{
-        margin-bottom: 60px;
+.about-text{
+    border-top: 4px solid rgba(255, 255, 255, 0.3);
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
+@media (min-width:768px){
 .menu-item{
         font-size: 38px;
         line-height: 46px;
@@ -65,11 +74,18 @@
     font-size: 30px;
     line-height: 36px;
 }
-.about-menu{
+.wrap{
+    width: calc(100% - 120px);
+}
+.menu{
     padding-left: 60px;
 }
 .about-content{
     padding-top: 60px;
+}
+.about-text{
+    padding-left: 60px;
+    padding-right: 60px;
 }
 }
 @media (min-width:1024px){
@@ -79,12 +95,8 @@
         margin-bottom: 0;
         border-right:4px solid rgba(255, 255, 255, 0.3);
         padding-right: 60px;
-        border-bottom: 0;
     }
-    .about-text{ 
-    border-top:0;
-    padding-left: 60px;
-    }
+  
     .menu{
         padding: 0;
         display: flex;
@@ -106,6 +118,17 @@
         font-size: 30px;
         line-height: 36px; 
     }
+    .about-text{
+        margin-left: 60px;
+        border-top: 0;
+        padding: 0;
+    }
+    .wrap{
+        width: calc(100% - 120px);
+    }
+    .wrapper{
+        width: calc(100% - 120px);
+    }
 }
 @media (min-width:1440px){
 
@@ -115,9 +138,8 @@
     font-size: 19px;
     line-height: 30px;
 }
-.about-content{
-    padding-left: 120px;
-    padding-right: 120px;
+.wrapper{
+    width: calc(100% - 360px);
 }
 }
 @media (min-width:1920px){
@@ -127,5 +149,10 @@
         font-size: 19px;
         line-height: 30px;
     }
-  
+    .wrap{
+        width: calc(100% - 120px);
+    }
+    .wrapper{
+        width: calc(100% - 560px);
+    }
     }
