@@ -1,0 +1,65 @@
+.services-text{
+    color:#F0145A;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.navigation{
+    color: rgba(36, 163, 255, 1);
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.navigation:hover{
+    color: rgba(240, 20, 90, 1);
+    stroke: rgba(240, 20, 90, 1);
+}
+.arrow:hover{
+   
+    stroke:#F0145A;
+    fill:#F0145A;
+}
+.card-title{
+    color: rgba(36, 163, 255, 1);
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.card-text{
+    font-size: 16px;
+    line-height:26px ;
+    color: rgba(255, 255, 255, 1);
+}
+.promo-text{
+    margin: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.team-text{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    background: linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+    }
+.team-after{
+    font-size: 16px;
+    color:rgba(179, 179, 186, 1);
+    line-height: 19px;
+    font-weight: 700;
+}
+.team-aftertext{
+    margin-top: 6px;
+    font-size: 14px;
+    color:rgba(179, 179, 186, 1);
+    line-height: 22px;
+    font-weight: 400;
+}

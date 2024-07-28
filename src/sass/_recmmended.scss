@@ -1,0 +1,109 @@
+.rec-border{
+    height: 4px;
+    background-color: rgba(230, 230, 240, 1);
+    margin-bottom: 15px;
+}
+.rec-picture{
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.rec-container{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 200px;
+}
+.rec-nav{
+    color: rgba(36, 163, 255, 1);
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.rec-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 30px;
+}
+.rec-tittle{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    background: linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    margin-bottom: 30px;
+    }
+    .rec-maxcontainer{
+        padding: 30px;
+    }
+    .rec-h2{
+        font-size: 16px;
+        color: rgba(36, 163, 255, 1);
+        line-height: 19px;
+        font-weight: 700;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .recommended{
+        background-color: rgba(245, 245, 250, 1);
+        padding-top: 30px;
+    }
+    .rec-h3{
+        font-size: 12px;
+        color: rgba(179, 179, 186, 1);
+        line-height: 14px;
+        font-weight: 700;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .rec-card{
+        background-color: rgba(255, 255, 255, 1);
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .rec-text{
+        font-size: 14px;
+        color: black;
+        line-height: 22px;
+        font-weight: 400;
+        margin: 0;
+    }
+@media (min-width:768px){
+    .rec-content{  
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(1, auto); 
+    }
+    .rec-card:nth-child(3){
+        grid-column: 1 / -1;
+        grid-row: 2 / 3;
+    }
+    .rec-tittle{
+        font-size: 38px;
+        line-height: 46px;
+    }
+    .team-text{
+        font-size:38px;
+        line-height: 46px;
+    }
+}
+@media (min-width:1024px){
+    .rec-content{  
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(1, auto); 
+    }
+    .rec-card:nth-child(3){
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    .container{
+        grid-gap:60px;
+    }
+}
