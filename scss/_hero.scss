@@ -188,4 +188,12 @@ gap:10px;
         justify-content: end;
     }
    
+    @media (min-width:1920px)
+{
+    .wrap-hero{
+        width: calc(100% - 320px);
+        max-width: 1920px;
+
+    }
+}
 }
