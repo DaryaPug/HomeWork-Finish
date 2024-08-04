@@ -156,9 +156,12 @@
         line-height: 30px;
     }
     .wrap{
-        width: calc(100% - 120px);
+        width: calc(100% - 320px);
+        max-width: 1920px;
     }
     .wrapper{
-        width: calc(100% - 560px);
+        width: calc(100% - 320px);
+        max-width: 1920px;
     }
+  
     }
